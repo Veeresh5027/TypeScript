@@ -1,0 +1,56 @@
+
+
+* In Typescript we can have special features like callback functions and function overloading
+    to make it more powerful and flexible
+
+1. Callback function
+
+* Callback function -> Callback function is a function that is passed as an argument 
+    to another function and gets executed later.
+
+*Why we need callback function?
+    -> Useful when you want a function to exexute only after another function executes.
+    -> Common in asynchronous operations like API calls, file handling or events loading.
+    -> Synchronous means the code runs in an particular sequence of instructions given in
+        a program. Where as asynchronous code execution allows to execution of the upcoming
+        instructions without waiting for the previous instructions to finish.
+    
+* Syntax: 
+        function abc(a:number, b:number, callback:any) //parameters
+        {
+        console.log(a+b)
+        callback()
+        }
+
+        //callback function
+        function xyz()
+        {
+        console.log("Hello")
+        }
+
+        abc(10, 20, xyz)
+
+
+
+2. Function Overloading
+
+Note: In Playwright it is more preferable to use functions
+
+* Function Overloading -> Function overloading is a feature in programming languages 
+    that allows multiple functions to have the same name but different parameters or return types.
+
+* Why we need function overloading?
+    -> Helps to create functions that work differently based on the input types
+    -> Improves code reusability
+    -> Makes the code more readable and maintainable
+
+* Basic rules of function overloading
+    -> Define overload signatures: List all the possible ways the function can be called.
+    -> Single implementation signature: There must be one actual function implementation
+        that handles all cases.
+    -> Ensure compatability: The implementation must be compatible with all overload signatures.
+
+* How to write overloaded functions in Typescript
+    step 1 : write a signature of functions.(function without body)
+    step 2 : Implement a function.
+    step 3 : Call the function
