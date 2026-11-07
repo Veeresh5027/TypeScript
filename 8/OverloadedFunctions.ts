@@ -76,24 +76,24 @@
 
 //Ex 5: function overloading with different parameters same return type
 
-function greet(name: string): string;
-function greet(age: number): string;
-function greet(isMarried: boolean): string;
+// function greet(name: string): string;
+// function greet(age: number): string;
+// function greet(isMarried: boolean): string;
 
-function greet(param: string | number | boolean): string {
-    if(typeof param === "string"){
-        return `Hello ${param}`;
-    }else if(typeof param === "number"){
-        return `Your age is ${param}`;
-    }else {
-        let message: string = param ? "You are married" : "You are single";
-        return message;
-    }
-    }
+// function greet(param: string | number | boolean): string {
+//     if(typeof param === "string"){
+//         return `Hello ${param}`;
+//     }else if(typeof param === "number"){
+//         return `Your age is ${param}`;
+//     }else {
+//         let message: string = param ? "You are married" : "You are single";
+//         return message;
+//     }
+//     }
 
-let result = greet("John");
-let result1 = greet(30);
-let result2 = greet(true);  
-console.log(result);
-console.log(result1);
-console.log(result2);
+// let result = greet("John");
+// let result1 = greet(30);
+// let result2 = greet(true);  
+// console.log(result);
+// console.log(result1);
+// console.log(result2);
