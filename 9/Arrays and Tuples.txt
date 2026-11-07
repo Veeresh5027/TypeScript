@@ -1,0 +1,20 @@
+Arrays and Tuples
+----------------------------------
+
+1. Arrays
+
+* Array is a special kind of variable that stores multiple values in a single variable.
+* Arrays are used to store multiple values in a single variable.
+* The values in an array can be of any type (Int, String, Double, Boolean).
+* Arrays are mutable.
+* Arrays are indexed. Start index is 0.
+* Arrays are ordered.
+* Arrays are declared using square brackets [] or genric type Array<T>.
+
+
+2. Tuples
+
+* A tuple is fixed-length array where each element has specific type.
+* It helps in storing multiple fields of different data types together.
+
+
