@@ -1,0 +1,40 @@
+
+Methods used in array are:
+
+1. Push() - Adds an element to the end of an array.
+    Syntax: array.push(element1, element2, element3....)
+
+2. Pop() - Removes an element from the end of an array.
+    Syntax: array.pop()
+
+3. Shift() - Removes an element from the beginning of an array.
+    Syntax: array.shift()
+
+4. Unshift() - Adds an element to the beginning of an array.
+    Syntax: array.unshift(element1, element2, element3....)
+
+5. concat() - Combines two or more arrays.
+              It can concatenate only homogeneous arrays. otherwise it will throw an error.
+    Syntax: array.concat(array1, array2, array3...)
+
+6. slice() - Returns a section of an array.
+              It does not change the original array.
+              It returns a new array.
+              It includes the start index but excludes the end index.
+              Syntax: array.slice(startIndex, endIndex)
+
+7. splice() - Changes the contents of an array by removing or replacing existing elements.
+              It changes the original array.
+              Adds/removes elements from the array.
+              Syntax: array.splice(startIndex, deleteCount, element1, element2, element3...)   
+
+8. indexOf() - Returns the index of the first found occurrence of a specified element in an array.
+                It returns -1 if the element is not found.
+                Syntax: array.indexOf(searchElement, fromIndex)         
+
+9. includes() - Returns true if an array includes a certain element, otherwise false.
+                Syntax: array.includes(searchElement, fromIndex)
+
+10. toString() - Converts an array to a string.
+                  It returns a comma-separated list of array elements.
+                  Syntax: array.toString()
