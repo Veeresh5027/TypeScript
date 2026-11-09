@@ -1,0 +1,81 @@
+Advanced methods in TypeScript
+----------------------------------
+
+Note: Here in every method we are passing function as a parameter.
+
+1. forEach() - Executes a provided function once for each array element.
+               It does not return anything.
+    Syntax: array.forEach(function(currentValue, index, array) {})
+            Here we are passing an anonymous function.
+            currentValue - The current element being processed in the array.
+            index(optional) - The index of the current element being processed in the array.
+            array(optional) - The array forEach was called upon.
+
+2. map() - Creates a new array populated with the results of calling a provided function on every element in the calling array.
+          It does not execute the function for array elements without values.
+          It returns a new array.
+    Syntax: array.map(function(currentValue, index, array) {}, thisValue)
+            Here we are passing an anonymous function.
+            Returns the same no of elements as the original array.
+            currentValue - The current element being processed in the array.
+            index(optional) - The index of the current element being processed in the array.
+            array(optional) - The array map was called upon.
+            thisValue(optional) - A value to use as this when executing callback function
+
+3. filter() - Creates a new array just like map() with all elements that pass/satisfy the test implemented by the provided function.
+              It does not execute the function for array elements without values.
+              It returns a new array.
+              It may or may not return the same number of elements as the original array.
+    Syntax: array.filter(function(currentValue, index, array) {}, thisValue)
+            Here we are passing an anonymous function.
+            Returns the same no of elements as the original array.
+            currentValue - The current element being processed in the array.
+            index(optional) - The index of the current element being processed in the array.
+            array(optional) - The array filter was called upon.
+            thisValue(optional) - A value to use as this when executing callback function
+
+4. reduce() - Executes a reducer function (that you provide) on each member of the array resulting in a single output value.
+              It does not execute the function for array elements without values.
+              It returns a single value.
+    Syntax: array.reduce(function(accumulator, currentValue, currentIndex, array) {}, initialValue)
+            Here we are passing an anonymous function.
+            Returns a single value.
+            accumulator - The value that reduces to a single value accumulated from previous iterations.
+            currentValue - The current element being processed in the array.
+            currentIndex(optional) - The index of the current element being processed in the array.
+            array(optional) - The array reduce was called upon.
+            initialValue(optional) - The value to use as the first argument to the first call of the callback function
+
+5. some() - Tests whether at least one element in the array passes/satisfies the test implemented by the provided function.
+            It does not execute the function for array elements without values.
+            It returns true if any element passes the test, otherwise false.
+            In simple it checks whether at least one element satisfies or not.
+    Syntax: array.some(function(currentValue, index, array) {}, thisValue)
+            Here we are passing an anonymous function.
+            Returns true if any element passes the test, otherwise false.
+            currentValue - The current element being processed in the array.
+            index(optional) - The index of the current element being processed in the array.
+            array(optional) - The array some was called upon.
+            thisValue(optional) - A value to use as this when executing callback function
+
+6. every() - Tests whether all elements in the array pass/satisfy the test implemented by the provided function.
+              It does not execute the function for array elements without values.
+              It returns true if all elements pass the test, otherwise false.
+              In simple it checks whether all elements satisfies or not.
+    Syntax: array.every(function(currentValue, index, array) {}, thisValue)
+            Here we are passing an anonymous function.
+            Returns true if all elements pass the test, otherwise false.
+            currentValue - The current element being processed in the array.
+            index(optional) - The index of the current element being processed in the array.
+            array(optional) - The array every was called upon.
+            thisValue(optional) - A value to use as this when executing callback function
+
+7. find() - Returns the value of the first element in the array that satisfies the provided testing function.
+              Otherwise undefined is returned.
+    Syntax: array.find(function(currentValue, index, array) {}, thisValue)
+            Here we are passing an anonymous function.
+            Returns the value of the first element in the array that satisfies the provided testing function.
+            currentValue - The current element being processed in the array.
+            index(optional) - The index of the current element being processed in the array.
+            array(optional) - The array find was called upon.
+            thisValue(optional) - A value to use as this when executing callback function
