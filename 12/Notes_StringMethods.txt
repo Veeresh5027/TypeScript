@@ -1,0 +1,80 @@
+String - It us a collection of characters.
+         Strting index starts from 0.
+1. Single quote - String literal ('')
+2. Double quote - String literal ("")
+3. Backtick - String template literal (``) -> when we try to print a variable inside a string we need to use backtick.
+
+String Methods
+1. length - Returns the length of a String.
+            It returns a number.
+            It says how many characters are in a string.
+            Syntax: string.length
+
+2. toUpperCase() - Converts a string to upper case.
+                  It returns a string.
+                  Syntax: string.toUpperCase()
+
+3. toLowerCase() - Converts a string to lower case.
+                  It returns a string.
+                  Syntax: string.toLowerCase()
+
+4. charAt() - Returns the character at a specified index.
+              It returns a string.
+              Syntax: string.charAt(index)
+
+5. indexOf() - Returns the position of the first occurrence of a specified text in a string.
+               It returns a number.
+               Syntax: string.indexOf(searchText, fromIndex)
+
+6. substring() - Returns a section of a string.
+                 It returns a string.
+                 Syntax: string.substring(startIndex, endIndex)
+                 start index is inclusive.
+                 end index is exclusive.
+
+7. includes() - Returns true if a string contains a specified text.
+                  It returns a boolean.
+                  string value is case sensitive.
+                  Syntax: string.includes(searchText, fromIndex)
+
+8. startsWith() - Returns true if a string starts with a specified text.
+                  It returns a boolean.
+                  string value is case sensitive.
+                  Syntax: string.startsWith(searchText, fromIndex)
+
+9. endsWith() - Returns true if a string ends with a specified text.
+                It returns a boolean.
+                string value is case sensitive.
+                Syntax: string.endsWith(searchText, fromIndex)
+
+10. replace() - Replaces a specified value with another value in a string.
+                It returns a string.
+                Syntax: string.replace(searchValue, replaceValue)
+
+11. split() - Splits a string into an array of substrings.
+              It returns an array.
+              Syntax: string.split(separator, limit)
+
+12. trim() - Removes whitespace from both sides of a string.
+             It returns a string.
+             Syntax: string.trim()
+
+13. trimStart() - Removes whitespace from the start of a string.
+                  It returns a string.
+                  Syntax: string.trimStart()
+
+14. trimEnd() - Removes whitespace from the end of a string.
+                It returns a string.
+                Syntax: string.trimEnd()
+
+15. concat() - Concatenates two or more strings.
+               It returns a string.
+               Syntax: string.concat(string1, string2, string3...)
+
+
+String Immutability
+-------------------
+
+* This means that once a string is created, it cannot be changed.
+* Whichever string method is applied on string, it will not change the original string.
+* Instead, it will return a new string.
