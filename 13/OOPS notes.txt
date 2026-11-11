@@ -1,0 +1,46 @@
+Object : An object is an instance of a class.
+        Group of properties and behaviors.
+        In programming object is a variable and methods
+        In TypeScript object is a key-value pair and methods are functions
+
+        ex: car object
+        properties: color, model, year
+        behaviors: start, stop, accelerate
+
+        code: var car = {
+            color: "red",
+            model: "Audi",
+            year: 2022,
+            start: function() {},
+            stop: function() {},
+            accelerate: function() {}
+        }
+
+        function start() {
+            console.log("Car is started");
+        }
+
+* Ways to create an object
+1. using object type - Directly define the values for the variables.(js/ts)
+    Here object type represents all the values that are not in primitive types.
+    If we dont declare the object, by default it will consider as object.
+    We can define methods inside the object type. 
+
+2. Inline object - we also define the datatype of the keys.(ts)
+    Here we are defining the datatype of the keys.
+    We can define methods inside the inline object.
+    Here first we define the structure and then we define the values.
+    The problem here is we need to declare the object again and again.
+
+3. Using type aliases.(ts)
+    To overcome the problem Inline object we use type aliases.
+    Here we are defining the structure of the object with type (type Product={}). 
+    Then we use that object as the datatype of another object.
+
+4. Using classes (es16/ts)
+    Class is a collection of properties and methods.
+    Class is a blueprint for creating objects.
+    Class is a template for creating objects.
+    Here we declare variables and then initialize them in the constructor.
+    Here we can define methods inside the class.
+    we need to create the object with 'new' keyword.
