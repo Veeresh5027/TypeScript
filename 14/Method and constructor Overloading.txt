@@ -1,0 +1,11 @@
+1. Method overloading
+    -> Method overloading is a feature of object-oriented programming languages that allows
+     a class to have multiple methods with the same name but different parameters.
+    -> Method overloading is used to implement different functionality based on the number 
+    and type of parameters passed to the method.
+    
+
+2. Constructor overloading
+    -> Constructor overloading is a feature of object-oriented programming languages that allows
+     a class to have multiple constructors with different parameters.
+    -> Constructor overloading is used to create multiple objects with different initial values.
