@@ -1,0 +1,29 @@
+Class
+---------------------------------------
+
+Class is a collection of properties and methods.
+Class is a blueprint for creating objects.
+Class is a template for creating objects.
+Here we declare variables and then initialize them in the constructor.
+Here we can define methods inside the class.
+we need to create the object with 'new' keyword.
+
+Some important points 
+* Read only
+    -> When we make variables readonly with keyword 'readonly' we can assign values only 
+       once and that too through constructor.
+    -> We cannot modify the properties.
+
+
+Optional properties
+    -> We can make a property optional by adding '?' after the property name.
+    -> This will make the property optional.
+    -> It can be undefined.
+
+Static properties and methods
+
+    -> We can make properties and methods static by adding 'static' keyword.
+    -> Static properties and methods can be accessed throughout the class name
+       without creating an object.
+    -> Static properties and methods can be shared among all the objects/instances.
+    -> Static properties and methods can be modified using the class name.
