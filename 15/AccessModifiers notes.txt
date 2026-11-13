@@ -1,0 +1,11 @@
+Access Modifiers
+----------------
+
+* Access Modifiers are used to control access to class members.
+* There are three types of access modifiers:
+    1. Public
+      -> Public members can be accessed from anywhere.
+    2. Private
+      -> Private members can only be accessed within the class.
+    3. Protected
+      -> Protected members can be accessed within the class and its subclasses.
