@@ -1,0 +1,17 @@
+Inheritance
+-----------
+
+1. Inheritance is a way to create a new class (child class) from an existing class (parent class).
+2. The child class inherits the properties and methods of the parent class.
+3. The child class can override the properties and methods of the parent class.
+4. The child class can add new properties and methods.
+5. A parent class which is inherited by a child class is called a base class.
+6. A child class which inherits from a parent class is called a derived class.
+
+Method Overriding
+----------------
+
+1. Method overriding is a feature of object-oriented programming languages that allows
+    a child class to provide its own implementation of a method that is already defined in the parent class.
+2. Method overriding is used to implement different functionality for the same method in different classes.
+3. It must have same name, same parameters, and same return type as the method in the parent class.
