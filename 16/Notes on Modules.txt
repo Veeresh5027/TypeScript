@@ -1,0 +1,10 @@
+Module
+------
+
+* Module is a way to group related code together.
+* Module is a way to organize code into reusable units.
+* Module is a way to create a namespace. 
+* 'export' keyword is used to export code from a module.
+* 'import' keyword is used to import code from a module.
+* 'export default' keyword is used to export default code from a module.
+* 'import' keyword is used to import default code from a module.

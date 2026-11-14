@@ -1,0 +1,27 @@
+Interface
+----------------
+
+* Interface is a blueprint for creating objects.
+* Interface In typescript is a way to define the structure of an object.
+* It tells the compiler what types of properties and methods an object should have.
+* It won't accept access static properties and methods.
+* It doesn't have constructor.
+* It doesnot support access modifiers.
+
+
+Abstract methods
+----------------
+
+* Abstract methods are methods that are declared but not implemented.
+* Means signature of the method is there but body is not there.
+
+interface InterfaceName {
+    properties
+    Abstract methods
+}
+
+1. Regular properties
+2. Optional properties
+3. Read only properties and functiontypes
+4. Extending interfaces
+5. Class implements interface
